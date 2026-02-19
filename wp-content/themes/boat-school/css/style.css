@@ -43,6 +43,7 @@
     position: relative;
     /* margin: 0; */
     padding: 0;
+    margin-bottom: 12rem !important;
 }
 
 .hero-image-container {
@@ -146,9 +147,13 @@ h2.highlight-title {
     gap: 32px;
 }
 
+.section-heading {
+    width: 66%;
+    margin-bottom: 1rem ;
+}
+
 .title-block {
     margin-bottom: 3rem;
-
 }
 
 /* Service cards */
@@ -158,22 +163,29 @@ h2.highlight-title {
     gap: 2rem;
 }
 
+
 .service-block-img {
     position: relative;
     background-size: cover;
     background-position: center;
-    min-height: 420px;
+    min-height: 500px;
     border-radius: 1rem;
     overflow: hidden;
     color: #fff;
     display: flex;
-    align-items: flex-end;
+    align-items: stretch;
 }
 
 .service-block-overlay {
     width: 100%;
-    background: linear-gradient(transparent, rgba(0, 0, 0, 0.7) 90%);
-    padding: 1.5rem;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 220px; /* Ensures text always starts at the same height */
+    padding: 2.5rem 1.5rem 1.5rem 1.5rem;
+    /* Remove background-color and margin for overlay, handled by gradient */
 }
 
 .service-block-title,
@@ -201,6 +213,15 @@ h2.highlight-title {
   /* ...existing code... */
 }
 
+.service-block-text{
+    padding: 8px 16px;
+}
+
+.service-block-text h3{
+    font-size: 1.563rem;
+    font-weight: 800;
+}
+
 
 
 
@@ -212,3 +233,33 @@ h2.highlight-title {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 32px;
 }
+
+.benefit-block{
+    background-color: #005ea4;
+    padding: 32px;
+    border-radius: 12px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.benefit-block h3{
+    font-size: 1.563rem;
+    font-weight: 800;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+
+
+
+/* TEACHER-------------------------------------------- */
+.teacher-info{
+    display:grid;
+    grid-template-columns: 4fr 2fr;
+}
+
+.teacher-info .section-heading{
+    width: 100%;
+}   

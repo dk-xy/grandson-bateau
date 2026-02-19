@@ -35,13 +35,13 @@
             </div>
 
             <div class="hero-descr">
-               Vous souhaitez obtenir votre permis de navigation moteur (catégorie A) sur le lac de Neuchâtel ? </br> Nous vous proposons une formation complète, alliant théorie et pratique, pour naviguer en toute sérénité.
+                Vous souhaitez obtenir votre permis de navigation moteur (catégorie A) sur le lac de Neuchâtel ? </br> Nous vous proposons une formation complète, alliant théorie et pratique, pour naviguer en toute sérénité.
             </div>
         </div>
     </section>
     <!-- SERVICES SECTION----------------------------------------------------------------------------------------- -->
 
-    <section  class="website-section">
+    <section class="website-section">
         <div class="services-section-title-block title-block">
             <div class="section-heading">
                 <div class="title-header">
@@ -66,27 +66,30 @@
             $service_image_3 = get_field('service_image_3');
             ?>
 
-            <div class="service-block service-block-img" style="background-image: url('<?php echo esc_url($service_image_1); ?>');">
-                <div class="service-block-overlay">
-                    <div class="service-block-title">Le bateau</div>
+            <div class="service-block">
+                <div class="service-block-img" style="background-image: url('<?php echo esc_url($service_image_1); ?>');"></div>
+                <div class="service-block-text">
+                    <h3 class="service-block-title">Le bateau</h3>
                     <div class="service-block-descr">
                         Confortable et maniable, notre bateau est le partenaire idéal pour vos premières manœuvres comme pour vos examens de conduite.
                     </div>
                 </div>
             </div>
 
-            <div class="service-block service-block-img" style="background-image: url('<?php echo esc_url($service_image_2); ?>');">
-                <div class="service-block-overlay">
-                    <div class="service-block-title">Les cours</div>
+            <div class="service-block">
+                <div class="service-block-img" style="background-image: url('<?php echo esc_url($service_image_2); ?>');"></div>
+                <div class="service-block-text">
+                    <h3 class="service-block-title">Les cours</h3>
                     <div class="service-block-descr">
                         Nos leçons sont flexibles, adaptées à votre rythme et axées sur la sécurité et la maîtrise technique.
                     </div>
                 </div>
             </div>
 
-            <div class="service-block service-block-img" style="background-image: url('<?php echo esc_url($service_image_3); ?>');">
-                <div class="service-block-overlay">
-                    <div class="service-block-title">Le lieu</div>
+            <div class="service-block">
+                <div class="service-block-img" style="background-image: url('<?php echo esc_url($service_image_3); ?>');"></div>
+                <div class="service-block-text">
+                    <h3 class="service-block-title">Le lieu</h3>
                     <div class="service-block-descr">
                         Entre eaux calmes et infrastructures portuaires de qualité, vous apprenez à naviguer dans l’un des plus beaux environnements de la région.
                     </div>
@@ -99,7 +102,7 @@
 
 
     <!-- BENEFIT SECTION----------------------------------------------------------------------------------------- -->
-    <section  class="website-section">
+    <section class="website-section">
         <div class="benefit-intro-section title-block">
 
             <div class="section-heading">
@@ -120,21 +123,21 @@
         <div class="benefit-blocks-container">
 
             <div class="benefit-block">
-                <div class="benefit-block-title">Formation complète</div>
+                <h3 class="benefit-block-title">Formation complète</h3>
                 <div class="benefit-block-descr">
                     De la théorie à la pratique, nous couvrons tous les aspects nécessaires pour réussir votre examen de conduite.
                 </div>
             </div>
 
             <div class="benefit-block">
-                <div class="benefit-block-title">Flexibilité</div>
+                <h3 class="benefit-block-title">Flexibilité</h3>
                 <div class="benefit-block-descr">
                     Nos horaires s’adaptent à votre emploi du temps, avec des sessions disponibles en semaine et le week-end.
                 </div>
             </div>
 
             <div class="benefit-block">
-                <div class="benefit-block-title">Environnement idéal</div>
+                <h3 class="benefit-block-title">Environnement idéal</h3>
                 <div class="benefit-block-descr">
                     Apprenez à naviguer dans un cadre naturel exceptionnel, avec des conditions de navigation variées pour une expérience d’apprentissage riche.
                 </div>
@@ -145,33 +148,40 @@
     </section>
 
     <!-- TEACHER SECTION----------------------------------------------------------------------------------------- -->
-    <section  class="website-section">
-        <div class="section-heading">
-            <div class="title-header">
-                Raphaël Party, votre capitaine
+    <section class="website-section">
+        <div class="teacher-info">
+            <div class="section-heading">
+                <div class="title-header">
+                    Raphaël Party, votre capitaine
+                </div>
+                <h2>
+                    L’expérience au service de votre réussite
+                </h2>
+                <div class="teacher-section-container">
+                    <div class="teacher-descr">
+                        Naviguer est une passion, mais transmettre cet art est une vocation. Avec une parfaite connaissance du lac de Neuchâtel et des exigences de l’examen de navigation, je vous accompagne avec calme et méthode pour faire de vous un navigateur chevronné.
+                    </div>
+                </div>
             </div>
-            <h2>
-                L’expérience au service de votre réussite
-            </h2>
+
+
+
+            <div class="teacher-picture">
+                <div class="teacher-image-container">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/pictures/raph.jpg" alt="Photo de Raphaël Party" class="teacher-image">
+                </div>
+            </div>
         </div>
 
-        <div class="teacher-section-container">
-            <div class="teacher-image-container">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teacher.jpg" alt="Photo de Raphaël Party" class="teacher-image">
-            </div>
-            <div class="teacher-descr">
-                Naviguer est une passion, mais transmettre cet art est une vocation. Avec une parfaite connaissance du lac de Neuchâtel et des exigences de l’examen de navigation, je vous accompagne avec calme et méthode pour faire de vous un navigateur chevronné.
-            </div>
-        </div>
     </section>
 
     <!-- TESTIMONIALS SECTION----------------------------------------------------------------------------------------- -->
-    <section  class="website-section">
+    <section class="website-section">
 
     </section>
 
     <!-- GALLERIES SECTION----------------------------------------------------------------------------------------- -->
-    <section  class="website-section">
+    <section class="website-section">
 
     </section>
 
@@ -200,7 +210,7 @@
 
                 <?php echo do_shortcode('[contact-form-7 id="59a5791" title="Contact form 1"]'); ?>
 
-        </div>
+            </div>
     </section>
 
 
