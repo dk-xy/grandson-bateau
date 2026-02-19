@@ -1,3 +1,5 @@
+/* HERO SECTION------------------------------------------------ */
+    /* Image */
 .hero-image-container{
     position: relative;
 }
@@ -11,13 +13,125 @@
     height: 50px;
 }
 
-.logo-container{
+.logo-container {
     position: absolute;
-    top: 10px;
-    left: 10px;
-    background-color: #ffffff91;
+    top: 2rem;
+    left: 2rem;
+    z-index: 10;
+    background: rgba(255,255,255,0.85);
     border: solid 1px #e0e0e0;
     padding: 8px 16px;
     border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    display: flex;
+    align-items: center;
+}
+
+.image-container{
+    margin: 8px;
+    border-radius: 8px !important;
+}
+.hero-intro-picture{
+    width: 100%;
+    height: auto;
+    border-radius: 8px !important;
+}
+
+/* HERO SECTION & HEADER OVERLAY */
+.my-hero-section {
+	position: relative;
+	/* margin: 0; */
+	padding: 0;
+}
+
+.hero-image-container {
+	position: relative;
+	width: 100vw;
+	left: 50%;
+	right: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	overflow: hidden;
+	min-height: 60vh;
+}
+
+.hero-image-container .image-container img {
+	width: 100vw;
+	height: 60vh;
+	object-fit: cover;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+/* Overlay header at top right */
+#masthead.site-header {
+	position: absolute;
+	top: 5;
+	right: 0;
+	left: auto;
+	z-index: 10;
+	background: transparent;
+	width: auto;
+	padding: 2rem 3rem 0 0;
+	box-shadow: none;
+}
+
+#masthead .site-branding {
+	display: none;
+}
+
+#masthead .main-navigation {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-start;
+	background: transparent;
+}
+
+#masthead .main-navigation ul {
+	background: rgba(255,255,255,0.85);
+	border-radius: 0.5rem;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+	padding: 0.5rem 1.5rem;
+}
+
+#masthead .main-navigation a {
+	color: #222;
+	font-weight: 600;
+	font-size: 1.1rem;
+	padding: 0.5rem 1rem;
+}
+
+@media (max-width: 900px) {
+	#masthead.site-header {
+		padding: 1rem 1rem 0 0;
+	}
+	.hero-image-container .image-container img {
+		height: 40vh;
+	}
+}
+
+    /* Content */
+.hero-intro{
+    text-align: center;
+}
+
+.hero-title h1{
+
+    color: #222;
+    margin: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+h2.highlight-title{
+margin: 0;
+margin-bottom: 2rem;
+}
+
+.hero-descr{
+    color: #555;
+    font-size: 1.2rem;
+    max-width: 950px;
+    margin: 0 auto;
 }
 
