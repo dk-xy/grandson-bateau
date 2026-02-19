@@ -42,7 +42,7 @@
     <!-- SERVICES SECTION----------------------------------------------------------------------------------------- -->
 
     <section  class="website-section">
-        <div class="services-section-title-block">
+        <div class="services-section-title-block title-block">
             <div class="section-heading">
                 <div class="title-header">
                     Nos services
@@ -52,34 +52,46 @@
                 </h2>
             </div>
 
-            <div>
+            <div class="section-descr">
                 Notre école de navigation vous prépare à l’examen officiel de conduite. Idéalement situé près d’Yverdon-les-Bains, le port de Grandson offre un accès direct aux plus belles zones du lac de Neuchâtel.
             </div>
         </div>
 
+
         <div class="services-blocks-container">
+            <?php
+            // Get ACF images for each card
+            $service_image_1 = get_field('service_image_1');
+            $service_image_2 = get_field('service_image_2');
+            $service_image_3 = get_field('service_image_3');
+            ?>
 
-            <div class="service-block">
-                <div class="service-block-title">Le bateau</div>
-                <div class="service-block-descr">
-                    Confortable et maniable, notre bateau est le partenaire idéal pour vos premières manœuvres comme pour vos examens de conduite.
+            <div class="service-block service-block-img" style="background-image: url('<?php echo esc_url($service_image_1); ?>');">
+                <div class="service-block-overlay">
+                    <div class="service-block-title">Le bateau</div>
+                    <div class="service-block-descr">
+                        Confortable et maniable, notre bateau est le partenaire idéal pour vos premières manœuvres comme pour vos examens de conduite.
+                    </div>
                 </div>
             </div>
 
-            <div class="service-block">
-                <div class="service-block-title">Les cours</div>
-                <div class="service-block-descr">
-                    Nos leçons sont flexibles, adaptées à votre rythme et axées sur la sécurité et la maîtrise technique.
+            <div class="service-block service-block-img" style="background-image: url('<?php echo esc_url($service_image_2); ?>');">
+                <div class="service-block-overlay">
+                    <div class="service-block-title">Les cours</div>
+                    <div class="service-block-descr">
+                        Nos leçons sont flexibles, adaptées à votre rythme et axées sur la sécurité et la maîtrise technique.
+                    </div>
                 </div>
             </div>
 
-            <div class="service-block">
-                <div class="service-block-title">Le lieu</div>
-                <div class="service-block-descr">
-                    Entre eaux calmes et infrastructures portuaires de qualité, vous apprenez à naviguer dans l’un des plus beaux environnements de la région.
+            <div class="service-block service-block-img" style="background-image: url('<?php echo esc_url($service_image_3); ?>');">
+                <div class="service-block-overlay">
+                    <div class="service-block-title">Le lieu</div>
+                    <div class="service-block-descr">
+                        Entre eaux calmes et infrastructures portuaires de qualité, vous apprenez à naviguer dans l’un des plus beaux environnements de la région.
+                    </div>
                 </div>
             </div>
-
         </div>
 
     </section>
@@ -88,7 +100,7 @@
 
     <!-- BENEFIT SECTION----------------------------------------------------------------------------------------- -->
     <section  class="website-section">
-        <div class="benefit-intro-section">
+        <div class="benefit-intro-section title-block">
 
             <div class="section-heading">
                 <div class="title-header">
@@ -136,7 +148,7 @@
     <section  class="website-section">
         <div class="section-heading">
             <div class="title-header">
-                Raphaël Party, Votre capitaine
+                Raphaël Party, votre capitaine
             </div>
             <h2>
                 L’expérience au service de votre réussite
@@ -145,7 +157,7 @@
 
         <div class="teacher-section-container">
             <div class="teacher-image-container">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teacher.jpg" alt="Votre capitaine" class="teacher-image">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/teacher.jpg" alt="Photo de Raphaël Party" class="teacher-image">
             </div>
             <div class="teacher-descr">
                 Naviguer est une passion, mais transmettre cet art est une vocation. Avec une parfaite connaissance du lac de Neuchâtel et des exigences de l’examen de navigation, je vous accompagne avec calme et méthode pour faire de vous un navigateur chevronné.
@@ -172,6 +184,22 @@
             <h2>
                 Contactez-nous !
             </h2>
+        </div>
+
+        <div class="contact-section-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <div class="contact-item-title">Téléphone</div>
+                    <div class="contact-item-descr">+41 79 123 45 67</div>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-item-title">Email</div>
+                    <div class="contact-item-descr">contact@grandson-voile.ch</div>
+                </div>
+
+
+                <?php echo do_shortcode('[contact-form-7 id="59a5791" title="Contact form 1"]'); ?>
+
         </div>
     </section>
 
