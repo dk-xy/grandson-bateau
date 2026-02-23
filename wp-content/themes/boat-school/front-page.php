@@ -197,14 +197,21 @@
         </div>
 
         <div class="contact-section-container">
+
             <div class="contact-info">
-                <div class="contact-item">
-                    <div class="contact-item-title">Téléphone</div>
-                    <div class="contact-item-descr">+41 79 123 45 67</div>
-                </div>
-                <div class="contact-item">
-                    <div class="contact-item-title">Email</div>
-                    <div class="contact-item-descr">contact@grandson-voile.ch</div>
+                <div class="contact-section">
+                    <div class="contact-item">
+                        <div class="contact-item-title">Addresse</div>
+                        <div class="contact-item-descr">Chem. du Pécos 1, 1422 Grandson</div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item-title">Téléphone</div>
+                        <div class="contact-item-descr">+41 79 123 45 67</div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-item-title">Email</div>
+                        <div class="contact-item-descr">contact@grandson-voile.ch</div>
+                    </div>
                 </div>
 
 

@@ -1,3 +1,12 @@
+/* SECTIONS */
+section{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+
+
+
 /* HERO SECTION------------------------------------------------ */
 /* Image */
 .hero-image-container {
@@ -91,17 +100,19 @@
 }
 
 #masthead .main-navigation ul {
-    background: rgba(255, 255, 255, 0.85);
+    background: rgba(255, 255, 255, 0.65);
+    border: solid 1px #ffffff;
     border-radius: 0.5rem;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); */
     padding: 0.5rem 1.5rem;
 }
 
 #masthead .main-navigation a {
     color: #222;
-    font-weight: 600;
-    font-size: 1.1rem;
+    font-weight: 500;
+    font-size: 1rem;
     padding: 0.5rem 1rem;
+    font-family: 'Raleway', sans-serif;
 }
 
 @media (max-width: 900px) {
@@ -134,7 +145,7 @@ h2.highlight-title {
 .hero-descr {
     color: #555;
     font-size: 1.2rem;
-    max-width: 950px;
+    /* max-width: 950px; */
     margin: 0 auto;
 }
 
@@ -148,7 +159,7 @@ h2.highlight-title {
 }
 
 .section-heading {
-    width: 66%;
+    /* width: 66%; */
     margin-bottom: 1rem ;
 }
 
@@ -258,8 +269,54 @@ h2.highlight-title {
 .teacher-info{
     display:grid;
     grid-template-columns: 4fr 2fr;
+    gap: 64px;
 }
 
 .teacher-info .section-heading{
     width: 100%;
 }   
+
+.teacher-image-container{
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+}
+
+.teacher-image{
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+/* CONTACT */
+.contact-section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+
+/* FORMS */
+
+.wpcf7-text{
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #005ea4;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #76a7d7;
+    
+}
