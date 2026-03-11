@@ -78,26 +78,84 @@ section{
 /* Overlay header at top right */
 #masthead.site-header {
 display: flex;
-justify-content: space-between;
+flex-direction: row;
 align-items: center;
 background: transparent;
-padding: 1rem 2rem;
+justify-content: space-between;
+padding: 0.4rem 1rem;
+/* gap: 32px; */
+
+width: 40%;
+/* margin: auto; */
+
+
+background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(23px);
+  -webkit-backdrop-filter: blur(23px);
+  border-radius: 48px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.5),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.1),
+    inset 0 0 8px 4px rgba(255, 255, 255, 0.4);
+  position: fixed;
+  overflow: hidden;
+  left: 50%;
+    top: 5%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    overflow: hidden;
 }
 
+#masthead.site-header::before{
+ content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.8),
+    transparent
+  );
+}
+
+
+#masthead.site-header::after{
+content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1px;
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.8),
+    transparent,
+    rgba(255, 255, 255, 0.3)
+  );
+}
+
+
 #masthead .site-branding {
-    max-width: 150px;
+    max-width: 250px;
+    /* border: solid 1px #005ea4; */
+    padding: 4px 8px;
+
 }
 
 #masthead .main-navigation {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
+    /* justify-content: flex-end; */
+    align-items: center;
     background: transparent;
 }
 
 #masthead .main-navigation ul {
-    background: rgba(255, 255, 255, 0.65);
-    border: solid 1px #ffffff;
+   
     border-radius: 0.5rem;
     /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); */
     padding: 0.5rem 1.5rem;
@@ -120,6 +178,12 @@ padding: 1rem 2rem;
         height: 40vh;
     }
 }
+
+
+
+/* NEW HEADER */
+
+
 
 /* Content */
 .hero-intro {
