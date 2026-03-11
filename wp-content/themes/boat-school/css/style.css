@@ -52,7 +52,7 @@ section{
     position: relative;
     /* margin: 0; */
     padding: 0;
-    margin-bottom: 12rem !important;
+    /* margin-bottom: 12rem !important; */
 }
 
 .hero-image-container {
@@ -77,19 +77,15 @@ section{
 
 /* Overlay header at top right */
 #masthead.site-header {
-    position: absolute;
-    top: 5;
-    right: 0;
-    left: auto;
-    z-index: 10;
-    background: transparent;
-    width: auto;
-    padding: 2rem 3rem 0 0;
-    box-shadow: none;
+display: flex;
+justify-content: space-between;
+align-items: center;
+background: transparent;
+padding: 1rem 2rem;
 }
 
 #masthead .site-branding {
-    display: none;
+    max-width: 150px;
 }
 
 #masthead .main-navigation {
@@ -128,6 +124,7 @@ section{
 /* Content */
 .hero-intro {
     text-align: center;
+    height: 25vw;
 }
 
 .hero-title h1 {
@@ -149,6 +146,55 @@ h2.highlight-title {
     margin: 0 auto;
 }
 
+
+
+
+/* Sticky Full Width Menu */
+.sticky-menu {
+    position: sticky;
+    top: 0;
+    width: 100vw;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+    background: #fff;
+    z-index: 1000;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.main-menu-list {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem 0;
+    margin: 0;
+    list-style: none;
+}
+.main-menu-list li {
+    display: inline-block;
+}
+.main-menu-list a {
+    text-decoration: none;
+    color: #222;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    transition: color 0.2s;
+}
+.main-menu-list a:hover {
+    color: #0073aa;
+}
+
+/* Centered Hero Text */
+.centered-hero-text {
+    text-align: center;
+    margin: 3rem auto 2rem auto;
+    /* max-width: 700px; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 
 /* SERVICES--------------------------------------------- */
@@ -291,11 +337,26 @@ h2.highlight-title {
 /* CONTACT */
 .contact-section{
     width: 100%;
-    display: flex;
+    /* display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 32px;
+    /* padding: 16px 32px; */
+}
+
+.contact-item{
+    padding: 16px 16px;
+    border: solid 1px #005ea4;
+    background-color: #f0f8ff;
+    border-radius: 8px;
+}
+
+.contact-item-title{
+    font-weight: 600;
+    margin-bottom: 8px;
 }
 
 

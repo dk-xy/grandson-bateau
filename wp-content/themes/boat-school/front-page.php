@@ -4,38 +4,34 @@
 
 
     <!-- HERO SECTION----------------------------------------------------------------------------------------- -->
-    <section class="my-hero-section website-section">
+   <section class="my-hero-section website-section">
         <?php
         // 1. Fetch the image URL from ACF
         $hero_url = get_field('homepage_hero_image');
-
-        // 2. Fallback to a placeholder if the user hasn't uploaded one yet
         if (! $hero_url) {
             $hero_url = get_template_directory_uri() . '/assets/images/default.jpg';
         }
         ?>
 
-        <div class="hero-image-container">
-            <div class="logo-container">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/logo.png" alt="" class="logo-hero">
-            </div>
-            <div class="image-container">
-                <img src="<?php echo esc_url($hero_url); ?>" alt="Dynamic Homepage Hero" class="hero-intro-picture">
-            </div>
-
-        </div>
-        <!-- <?php
-                // echo wp_get_attachment_image(get_field('homepage_hero_image'), 'full'); 
-                ?> -->
-        <div class="hero-intro">
+        <!-- Centered Hero Text -->
+        <div class="hero-intro centered-hero-text">
             <div class="hero-title">
                 <h1>Bâteau École Grandson</h1>
                 <h2 class="highlight-title">Cours de bâteau, sur le lac de Neuchâtel</h2>
-                <!-- <div class="sub-text">Cours de bâteau, sur le lac de Neuchâtel</div> -->
             </div>
-
             <div class="hero-descr">
-                Vous souhaitez obtenir votre permis de navigation moteur (catégorie A) sur le lac de Neuchâtel ? </br> Nous vous proposons une formation complète, alliant théorie et pratique, pour naviguer en toute sérénité.
+                Vous souhaitez obtenir votre permis de navigation moteur (catégorie A) sur le lac de Neuchâtel ?<br>
+                Nous vous proposons une formation complète, alliant théorie et pratique, pour naviguer en toute sérénité.
+            </div>
+        </div>
+
+        <!-- Hero Image Below Text -->
+        <div class="hero-image-container">
+            <!-- <div class="logo-container">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/logo.png" alt="" class="logo-hero">
+            </div> -->
+            <div class="image-container">
+                <img src="<?php echo esc_url($hero_url); ?>" alt="Dynamic Homepage Hero" class="hero-intro-picture">
             </div>
         </div>
     </section>
@@ -202,7 +198,14 @@
                 <div class="contact-section">
                     <div class="contact-item">
                         <div class="contact-item-title">Addresse</div>
-                        <div class="contact-item-descr">Chem. du Pécos 1, 1422 Grandson</div>
+                        <div class="contact-item-descr adresse-descr">
+                            <div>
+                                Chem. du Pécos 1
+                            </div>
+                            <div>
+                                1422 Grandson
+                            </div>
+                        </div>
                     </div>
                     <div class="contact-item">
                         <div class="contact-item-title">Téléphone</div>
