@@ -68,7 +68,7 @@
                 <div class="service-block-text">
                     <h3 class="service-block-title">Le bateau</h3>
                     <div class="service-block-descr">
-                       Les heures de pratique se déroulent à bord de notre bâteau semi rigide 3D Tender de 5m50, propulsé par un moteur de 70 cv 4 temps, très facile à manœuvrer et idéal pour l'apprentissage.
+                        Les heures de pratique se déroulent à bord de notre bâteau semi rigide 3D Tender de 5m50, propulsé par un moteur de 70 cv 4 temps, très facile à manœuvrer et idéal pour l'apprentissage.
                     </div>
                 </div>
             </div>
@@ -176,6 +176,23 @@
         </div>
         <div class="theory-section-about">
             Vous avez également la possibilité de commencer la pratique en même temps que la théorie ce qui vous permettra sans aucun doute d’approcher cette dernière de manière plus agréable et avec plus de facilité.Une fois que vous serez prêt, vous pourrez vous inscrire auprès du Service des Automobiles et de la Navigation de votre canton de domicile qui vous informera au sujet des dates des prochains examens.
+        </div>
+
+        <div class="theory-special-content">
+            <div class="special-content-title-container">
+                <div class="special-content-title">
+                    <h3>Matériel de formation gratuit</h3>
+                </div>
+                <div class="special-content-sub-title">
+                    <div class="title-header">Mis à disposition par Dominique Brun</div>
+                </div>
+            </div>
+            <div class="theory-special-content-about">
+                Nous avons la chance de pouvoir bénéficier de matériel de formation gratuit mis à disposition par Dominique Brun, un collègue passionné de navigation et formateur expérimenté. Ce matériel comprend des supports de cours, des vidéos de manoeuvre et des conseils pour réussir l’examen théorique.
+            </div>
+            <div class="theory-special-content-link">
+                    <a href="https://dom-auto-moto-bateau-ecole-mv0drx087gfy9mx2.builder-preview.com/bateaux">Liens vers le blog de Dominique</a>
+            </div>
         </div>
     </section>
 
