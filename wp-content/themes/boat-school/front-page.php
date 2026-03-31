@@ -4,7 +4,7 @@
 
 
     <!-- HERO SECTION----------------------------------------------------------------------------------------- -->
-   <section class="my-hero-section website-section">
+    <section class="my-hero-section website-section">
         <?php
         // 1. Fetch the image URL from ACF
         $hero_url = get_field('homepage_hero_image');
@@ -50,6 +50,7 @@
 
             <div class="section-descr">
                 Notre école de navigation vous prépare à l’examen officiel de conduite. Idéalement situé près d’Yverdon-les-Bains, le port de Grandson offre un accès direct aux plus belles zones du lac de Neuchâtel.
+
             </div>
         </div>
 
@@ -67,7 +68,7 @@
                 <div class="service-block-text">
                     <h3 class="service-block-title">Le bateau</h3>
                     <div class="service-block-descr">
-                        Confortable et maniable, notre bateau est le partenaire idéal pour vos premières manœuvres comme pour vos examens de conduite.
+                       Les heures de pratique se déroulent à bord de notre bâteau semi rigide 3D Tender de 5m50, propulsé par un moteur de 70 cv 4 temps, très facile à manœuvrer et idéal pour l'apprentissage.
                     </div>
                 </div>
             </div>
@@ -77,7 +78,7 @@
                 <div class="service-block-text">
                     <h3 class="service-block-title">Les cours</h3>
                     <div class="service-block-descr">
-                        Nos leçons sont flexibles, adaptées à votre rythme et axées sur la sécurité et la maîtrise technique.
+                        Nos leçons sont flexibles, adaptées à votre rythme et axées sur la sécurité et la maîtrise technique, avec des sessions disponibles en semaine et le week-end.
                     </div>
                 </div>
             </div>
@@ -87,7 +88,7 @@
                 <div class="service-block-text">
                     <h3 class="service-block-title">Le lieu</h3>
                     <div class="service-block-descr">
-                        Entre eaux calmes et infrastructures portuaires de qualité, vous apprenez à naviguer dans l’un des plus beaux environnements de la région.
+                        Entre eaux calmes et infrastructures portuaires de qualité, vous apprenez à naviguer dans l’un des plus beaux environnements de la région, avec des conditions de navigation variées pour une expérience d’apprentissage riche.
                     </div>
                 </div>
             </div>
@@ -103,7 +104,7 @@
 
             <div class="section-heading">
                 <div class="title-header">
-                    Les cours sur mesure
+                    Préparation à l’examen de conduite
                 </div>
                 <h2>
                     Votre réussite au fil de l’eau
@@ -111,7 +112,10 @@
             </div>
 
             <div class="benefit-intro-descr">
-                Obtenir son permis de navigation moteur (catégorie A) est une étape passionnante. Notre méthode d’enseignement repose sur une approche progressive et personnalisée, conçue pour vous mettre en confiance dès la première sortie sur le lac de Neuchâtel
+                Nous vous formerons à la pratique à bord de notre bateau. Vous apprendrez à manœuvrer et maîtriser un bateau afin de vous sentir à l’aise et en toute sécurité à la barre.
+                Nous verrons ensemble les diverses manœuvres d’accostage, de mise en place, de navigation, d'homme à la mer, d’urgence, etc.
+                Il faut prévoir environ 15 heures de cours pratiques pour la préparation.
+                Nous vous formerons afin que vous puissiez atteindre les différents objectifs de l’examen pratique qui sont :
             </div>
 
         </div>
@@ -119,28 +123,60 @@
         <div class="benefit-blocks-container">
 
             <div class="benefit-block">
-                <h3 class="benefit-block-title">Formation complète</h3>
+                <h3 class="benefit-block-title">Maîtrise de son véhicule</h3>
                 <div class="benefit-block-descr">
-                    De la théorie à la pratique, nous couvrons tous les aspects nécessaires pour réussir votre examen de conduite.
+                    Maîtriser le bateau afin de ne pas créer de situations dangereuses sur les eaux et réagir de façon appropriée si de telles situations surviennent malgré tout
                 </div>
             </div>
 
             <div class="benefit-block">
-                <h3 class="benefit-block-title">Flexibilité</h3>
+                <h3 class="benefit-block-title">Observation de son environnement</h3>
                 <div class="benefit-block-descr">
-                    Nos horaires s’adaptent à votre emploi du temps, avec des sessions disponibles en semaine et le week-end.
+                    Observer et analyser l’environnement de navigation pour prendre des décisions éclairées et anticiper les situations potentiellement dangereuses.
                 </div>
             </div>
 
             <div class="benefit-block">
-                <h3 class="benefit-block-title">Environnement idéal</h3>
+                <h3 class="benefit-block-title">Respect des règles de navigation</h3>
                 <div class="benefit-block-descr">
-                    Apprenez à naviguer dans un cadre naturel exceptionnel, avec des conditions de navigation variées pour une expérience d’apprentissage riche.
-                </div>
+                    Faire preuve d’égards envers autrui afin de contribuer à la sécurité de tous les usagers et notamment des plus vulnérables. </div>
             </div>
 
         </div>
 
+    </section>
+
+
+
+    <!-- THEORIE SECTION----------------------------------------------------------------------------------------- -->
+    <section class="website-section">
+        <div class="section-heading">
+            <div class="title-header">
+                Préparation à l’examen théorique
+            </div>
+            <h2>
+                Divers options de préparation
+            </h2>
+        </div>
+        <div class="theory-section-intro">
+            Vous avez à disposition plusieurs moyens pour vous préparer à l’examen théorique:
+            <ul>
+                <li>
+                    Acheter les livres fournis par le Service de Automobiles et de la Navigation: "Naviguez dans les eaux suisses" ainsi que le catalogue d'éxamen.
+                </li>
+                <li>
+                    Utiliser lâpplication d'apprentissage en ligne du service des automobiles et de la navigation
+                    <div><a href="https://www.cut-demo.ch/">Liens</a></div>
+                </li>
+                <li>
+                    D'autres manuels ou applications qui peuvent être commandés dans des magasins spécialisés ou sur Internet
+                </li>
+            </ul>
+
+        </div>
+        <div class="theory-section-about">
+            Vous avez également la possibilité de commencer la pratique en même temps que la théorie ce qui vous permettra sans aucun doute d’approcher cette dernière de manière plus agréable et avec plus de facilité.Une fois que vous serez prêt, vous pourrez vous inscrire auprès du Service des Automobiles et de la Navigation de votre canton de domicile qui vous informera au sujet des dates des prochains examens.
+        </div>
     </section>
 
     <!-- TEACHER SECTION----------------------------------------------------------------------------------------- -->
@@ -171,7 +207,7 @@
 
     </section>
 
-    <!-- TESTIMONIALS SECTION----------------------------------------------------------------------------------------- -->
+    <!-- TARIFS SECTION----------------------------------------------------------------------------------------- -->
     <section class="website-section">
 
     </section>
