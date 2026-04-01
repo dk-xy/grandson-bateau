@@ -175,7 +175,7 @@
 
         </div>
         <div class="theory-section-about">
-            Vous avez également la possibilité de commencer la pratique en même temps que la théorie ce qui vous permettra sans aucun doute d’approcher cette dernière de manière plus agréable et avec plus de facilité.Une fois que vous serez prêt, vous pourrez vous inscrire auprès du Service des Automobiles et de la Navigation de votre canton de domicile qui vous informera au sujet des dates des prochains examens.
+            Vous avez également la possibilité de <b>commencer la pratique en même temps que la théorie</b> ce qui vous permettra sans aucun doute d’approcher cette dernière de manière plus agréable et avec plus de facilité. Une fois que vous serez prêt, vous pourrez vous inscrire auprès du Service des Automobiles et de la Navigation de votre canton de domicile qui vous informera au sujet des dates des prochains examens.
         </div>
 
         <div class="theory-special-content">
@@ -211,7 +211,7 @@
                         Naviguer est une passion, mais transmettre cet art est une vocation. Avec une parfaite connaissance du lac de Neuchâtel et des exigences de l’examen de navigation, je vous accompagne avec calme et méthode pour faire de vous un navigateur chevronné.
                     </div>
                     <div class="prices">
-                     
+
                         <div class="price-list">
                             <div class="picice-list-title-container">
                                 <h3 class="price-list-title">Tarif horaire</h3>
@@ -230,7 +230,7 @@
                             </div>
 
                             <div class="picice-list-title-about">
-                                Les dimanches toute la journe, et autre jours de la semaine au delà de 19h, les tarifs sont majorés de 25%. </br> Le paiement est à effectuer à la fin de chaque leçon.
+                                Les dimanches durant toute la journée, et autre jours de la semaine au delà de 19h, les tarifs<b> sont majorés de 25%. </b> Le paiement est à effectuer à la fin de chaque leçon.
                             </div>
                         </div>
                     </div>
@@ -249,9 +249,9 @@
     </section>
 
     <!-- TARIFS SECTION----------------------------------------------------------------------------------------- -->
-    <section class="website-section">
+    <!-- <section class="website-section">
 
-    </section>
+    </section> -->
 
     <!-- GALLERIES SECTION----------------------------------------------------------------------------------------- -->
     <!-- <section class="website-section">
@@ -274,7 +274,12 @@
             <div class="contact-info">
                 <div class="contact-section">
                     <div class="contact-item">
-                        <div class="contact-item-title">Addresse</div>
+                        <div class="contact-item-title-container">
+                            <div class="contact-item-icon">
+                                <?php include 'assets/icons/contact/location-pin.svg'; ?>
+                            </div>
+                            <div class="contact-item-title">Adresse</div>
+                        </div>
                         <div class="contact-item-descr adresse-descr">
                             <div>
                                 Chem. du Pécos 1
@@ -285,18 +290,26 @@
                         </div>
                     </div>
                     <div class="contact-item">
-                        <div class="contact-item-title">Téléphone</div>
+                        <div class="contact-item-title-container">
+                            <div class="contact-item-icon">
+                                <?php include 'assets/icons/contact/phone.svg'; ?>
+                            </div>
+                            <div class="contact-item-title">Téléphone</div>
+                        </div>
+
                         <div class="contact-item-descr">+41 79 123 45 67</div>
                     </div>
                     <div class="contact-item">
-                        <div class="contact-item-title">Email</div>
+                        <div class="contact-item-title-container">
+                            <div class="contact-item-icon">
+                                <?php include 'assets/icons/contact/mail-open.svg'; ?>
+                            </div>
+                            <div class="contact-item-title">Email</div>
+                        </div>
                         <div class="contact-item-descr">contact@grandson-voile.ch</div>
                     </div>
                 </div>
-
-
-                <?php echo do_shortcode('[contact-form-7 id="59a5791" title="Contact form 1"]'); ?>
-
+                  <?php echo do_shortcode('[contact-form-7 id="59a5791" title="Contact form 1"]'); ?>
             </div>
     </section>
 
