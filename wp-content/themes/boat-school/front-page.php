@@ -9,7 +9,7 @@
         // 1. Fetch the image URL from ACF
         $hero_url = get_field('homepage_hero_image');
         if (! $hero_url) {
-            $hero_url = get_template_directory_uri() . '/assets/images/default.jpg';
+            $hero_url = get_template_directory_uri() . '/assets/images/lac-de-neuchatel.webp';
         }
         ?>
 
@@ -165,7 +165,7 @@
                     Acheter les livres fournis par le Service de Automobiles et de la Navigation: "Naviguez dans les eaux suisses" ainsi que le catalogue d'éxamen.
                 </li>
                 <li>
-                    Utiliser lâpplication d'apprentissage en ligne du service des automobiles et de la navigation
+                    Utiliser l'application d'apprentissage en ligne du service des automobiles et de la navigation
                     <div><a href="https://www.cut-demo.ch/">Liens</a></div>
                 </li>
                 <li>
@@ -191,7 +191,7 @@
                 Nous avons la chance de pouvoir bénéficier de matériel de formation gratuit mis à disposition par Dominique Brun, un collègue passionné de navigation et formateur expérimenté. Ce matériel comprend des supports de cours, des vidéos de manoeuvre et des conseils pour réussir l’examen théorique.
             </div>
             <div class="theory-special-content-link">
-                    <a href="https://dom-auto-moto-bateau-ecole-mv0drx087gfy9mx2.builder-preview.com/bateaux">Liens vers le blog de Dominique</a>
+                <a href="https://dom-auto-moto-bateau-ecole-mv0drx087gfy9mx2.builder-preview.com/bateaux">Liens vers le blog de Dominique</a>
             </div>
         </div>
     </section>
@@ -210,6 +210,30 @@
                     <div class="teacher-descr">
                         Naviguer est une passion, mais transmettre cet art est une vocation. Avec une parfaite connaissance du lac de Neuchâtel et des exigences de l’examen de navigation, je vous accompagne avec calme et méthode pour faire de vous un navigateur chevronné.
                     </div>
+                    <div class="prices">
+                     
+                        <div class="price-list">
+                            <div class="picice-list-title-container">
+                                <h3 class="price-list-title">Tarif horaire</h3>
+                                <div class="pirce-list-subtitle">Du lundi au samedi jusqu'à 19h</div>
+                            </div>
+
+                            <div class="price-list-item-container">
+                                <div class="price-list-item">
+                                    <div class="price-list-item-title">Tout inclus</div>
+                                    <div class="price-list-item-value">CHF 100.-</div>
+                                </div>
+                                <div class="price-list-item">
+                                    <div class="price-list-item-title">Avec votre bâteau</div>
+                                    <div class="price-list-item-value">CHF 80.-</div>
+                                </div>
+                            </div>
+
+                            <div class="picice-list-title-about">
+                                Les dimanches toute la journe, et autre jours de la semaine au delà de 19h, les tarifs sont majorés de 25%. </br> Le paiement est à effectuer à la fin de chaque leçon.
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -217,7 +241,7 @@
 
             <div class="teacher-picture">
                 <div class="teacher-image-container">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/pictures/raph.jpg" alt="Photo de Raphaël Party" class="teacher-image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/pictures/raphael-party-instructeur.webp" alt="Photo de Raphaël Party" class="teacher-image">
                 </div>
             </div>
         </div>
@@ -230,9 +254,9 @@
     </section>
 
     <!-- GALLERIES SECTION----------------------------------------------------------------------------------------- -->
-    <section class="website-section">
+    <!-- <section class="website-section">
 
-    </section>
+    </section> -->
 
     <!-- CONTACT SECTION----------------------------------------------------------------------------------------- -->
     <section class="website-section">
