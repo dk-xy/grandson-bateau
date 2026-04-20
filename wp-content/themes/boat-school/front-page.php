@@ -123,21 +123,31 @@
         <div class="benefit-blocks-container">
 
             <div class="benefit-block">
-                <h3 class="benefit-block-title">Maîtrise de son véhicule</h3>
+                <div class="benefit-block-title-container">
+                    <h3 class="benefit-block-title">Maîtrise</h3>
+                    <div class="benefit-block-subtitle">de son véhicule</div>
+                </div>
+
                 <div class="benefit-block-descr">
                     Maîtriser le bateau afin de ne pas créer de situations dangereuses sur les eaux et réagir de façon appropriée si de telles situations surviennent malgré tout
                 </div>
             </div>
 
             <div class="benefit-block">
-                <h3 class="benefit-block-title">Observation de son environnement</h3>
+                <div class="benefit-block-title-container">
+                    <h3 class="benefit-block-title">Observation</h3>
+                    <div class="benefit-block-subtitle">de son environnement</div>
+                </div>
                 <div class="benefit-block-descr">
-                    Observer et analyser l’environnement de navigation pour prendre des décisions éclairées et anticiper les situations potentiellement dangereuses.
+                   Observer et analyser l’environnement de navigation pour prendre des décisions éclairées et anticiper les situations potentiellement dangereuses.
                 </div>
             </div>
 
             <div class="benefit-block">
-                <h3 class="benefit-block-title">Respect des règles de navigation</h3>
+                <div class="benefit-block-title-container">
+                    <h3 class="benefit-block-title">Respect </h3>
+                    <div class="benefit-block-subtitle">des règles de navigation</div>
+                </div>
                 <div class="benefit-block-descr">
                     Faire preuve d’égards envers autrui afin de contribuer à la sécurité de tous les usagers et notamment des plus vulnérables. </div>
             </div>
@@ -309,7 +319,7 @@
                         <div class="contact-item-descr">contact@grandson-voile.ch</div>
                     </div>
                 </div>
-                  <?php echo do_shortcode('[contact-form-7 id="59a5791" title="Contact form 1"]'); ?>
+                <?php echo do_shortcode('[contact-form-7 id="59a5791" title="Contact form 1"]'); ?>
             </div>
     </section>
 
