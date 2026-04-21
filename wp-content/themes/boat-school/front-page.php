@@ -20,8 +20,8 @@
                 <h2 class="highlight-title">Cours de bâteau, sur le lac de Neuchâtel</h2>
             </div>
             <div class="hero-descr">
-                Vous souhaitez obtenir votre permis de navigation moteur (catégorie A) sur le lac de Neuchâtel ?<br>
-                Nous vous proposons une formation complète, alliant théorie et pratique, pour naviguer en toute sérénité.
+                Vous souhaitez obtenir votre permis de conduire bâteau moteur (catégorie A) sur le lac de Neuchâtel ?<br>
+                Nous vous proposons une formation pratique complète pour naviguer en toute sérénité.
             </div>
         </div>
 
@@ -44,7 +44,7 @@
                     Nos services
                 </div>
                 <h2>
-                    Formation au permis de conduire moteur (Cat. A)
+                    Formation au permis de conduire bâteau moteur (Cat. A)
                 </h2>
             </div>
 
@@ -88,7 +88,7 @@
                 <div class="service-block-text">
                     <h3 class="service-block-title">Le lieu</h3>
                     <div class="service-block-descr">
-                        Entre eaux calmes et infrastructures portuaires de qualité, vous apprenez à naviguer dans l’un des plus beaux environnements de la région, avec des conditions de navigation variées pour une expérience d’apprentissage riche.
+                        En bénéficiant d'infrastructures portuaires de qualité, vous apprenez à naviguer dans l’un des plus beaux environnements de la région, entre eaux calmes et agitée, pour une expérience d’apprentissage riche.
                     </div>
                 </div>
             </div>
@@ -139,7 +139,7 @@
                     <div class="benefit-block-subtitle">de son environnement</div>
                 </div>
                 <div class="benefit-block-descr">
-                   Observer et analyser l’environnement de navigation pour prendre des décisions éclairées et anticiper les situations potentiellement dangereuses.
+                    Observer et analyser l’environnement de navigation pour prendre des décisions éclairées et anticiper les situations potentiellement dangereuses.
                 </div>
             </div>
 
@@ -220,30 +220,6 @@
                     <div class="teacher-descr">
                         Naviguer est une passion, mais transmettre cet art est une vocation. Avec une parfaite connaissance du lac de Neuchâtel et des exigences de l’examen de navigation, je vous accompagne avec calme et méthode pour faire de vous un navigateur chevronné.
                     </div>
-                    <div class="prices">
-
-                        <div class="price-list">
-                            <div class="picice-list-title-container">
-                                <h3 class="price-list-title">Tarif horaire</h3>
-                                <div class="pirce-list-subtitle">Du lundi au samedi jusqu'à 19h</div>
-                            </div>
-
-                            <div class="price-list-item-container">
-                                <div class="price-list-item">
-                                    <div class="price-list-item-title">Tout inclus</div>
-                                    <div class="price-list-item-value">CHF 100.-</div>
-                                </div>
-                                <div class="price-list-item">
-                                    <div class="price-list-item-title">Avec votre bâteau</div>
-                                    <div class="price-list-item-value">CHF 80.-</div>
-                                </div>
-                            </div>
-
-                            <div class="picice-list-title-about">
-                                Les dimanches durant toute la journée, et autre jours de la semaine au delà de 19h, les tarifs<b> sont majorés de 25%. </b> Le paiement est à effectuer à la fin de chaque leçon.
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
 
@@ -259,9 +235,44 @@
     </section>
 
     <!-- TARIFS SECTION----------------------------------------------------------------------------------------- -->
-    <!-- <section class="website-section">
+    <section class="prices-section website-section">
+        <div class="prices-section-container">
+            <div class="boat-picture">
+                <div class="boat-image-container">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/pictures/bateau-semi-rigide-3d-tender.webp" alt="Photo de Raphaël Party" class="teacher-image">
+                </div>
+            </div>
+            <div class="prices">
 
-    </section> -->
+                <div class="price-list">
+                    <div class="picice-list-title-container">
+                        <h3 class="price-list-title">Tarif horaire</h3>
+                        <div class="price-list-subtitle">Du lundi au samedi jusqu'à 19h</div>
+                         <div class="price-list-subtitle payment-info">
+                        Le paiement est à effectuer à la fin de chaque leçon.</div>
+                    </div>
+
+                    <div class="price-list-item-container">
+                        <div class="price-list-item">
+                            <div class="price-list-item-title">Tout inclus</div>
+                            <div class="price-list-item-value">CHF 100.-</div>
+                        </div>
+                        <div class="price-list-item">
+                            <div class="price-list-item-title">Avec votre bâteau</div>
+                            <div class="price-list-item-value">CHF 80.-</div>
+                        </div>
+                    </div>
+
+               
+
+                    <div class="picice-list-title-about">
+                        Les dimanches durant toute la journée, et autre jours de la semaine au delà de 19h, les tarifs<b> sont majorés de 25%. </b>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
 
     <!-- GALLERIES SECTION----------------------------------------------------------------------------------------- -->
     <!-- <section class="website-section">
