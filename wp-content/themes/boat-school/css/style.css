@@ -67,11 +67,12 @@ section {
 
 .hero-image-container {
     position: relative;
-    width: 100vw;
+    /* width: 100vw;
     left: 50%;
     right: 50%;
     margin-left: -50vw;
-    margin-right: -50vw;
+    margin-right: -50vw; */
+    width: 100%;
     overflow: hidden;
     min-height: 60vh;
 }
@@ -275,7 +276,7 @@ h2.highlight-title {
 .services-blocks-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 32px;
+    gap: 64px;
 }
 
 .section-heading {
@@ -482,6 +483,25 @@ h2.highlight-title {
 
 .teacher-descr {
     margin-bottom: 36px;
+}
+.teacher-highlight-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-left: 2em;
+    margin-top: 3em;
+    font-weight: 500;
+}
+
+
+.teacher-highlight-item{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+.teacher-highlight-icon svg {
+    width: 32px;
+    height: 32px;
 }
 
 /* Prices */

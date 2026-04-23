@@ -221,6 +221,32 @@
                         Naviguer est une passion, mais transmettre cet art est une vocation. Avec une parfaite connaissance du lac de Neuchâtel et des exigences de l’examen de navigation, je vous accompagne avec calme et méthode pour faire de vous un navigateur chevronné.
                     </div>
                 </div>
+                <div class="teacher-highlight-grid">
+                    <div class="teacher-highlight-item">
+                        <div class="teacher-highlight-icon">
+                            <?php include 'assets/icons/teacher/history.svg'; ?>
+                        </div>
+                        <div class="teacher-highlight-content">
+                            Plus de 20 ans d’expérience en navigation
+                        </div>
+                    </div>
+                    <div class="teacher-highlight-item">
+                        <div class="teacher-highlight-icon">
+                            <?php include 'assets/icons/teacher/academic.svg'; ?>
+                        </div>
+                        <div class="teacher-highlight-item">
+                            Une centaine d'étudiants formés avec succès
+                        </div>
+                    </div>
+                    <div class="teacher-highlight-item">
+                        <div class="teacher-highlight-icon">
+                            <?php include 'assets/icons/teacher/globe.svg'; ?>
+                        </div>
+                        <div class="teacher-highlight-item">
+                            Navigué sur les plus beaux lacs et mers du monde
+                        </div>
+                    </div>
+                </div>
             </div>
 
 
@@ -248,8 +274,8 @@
                     <div class="picice-list-title-container">
                         <h3 class="price-list-title">Tarif horaire</h3>
                         <div class="price-list-subtitle">Du lundi au samedi jusqu'à 19h</div>
-                         <div class="price-list-subtitle payment-info">
-                        Le paiement est à effectuer à la fin de chaque leçon.</div>
+                        <div class="price-list-subtitle payment-info">
+                            Le paiement est à effectuer à la fin de chaque leçon.</div>
                     </div>
 
                     <div class="price-list-item-container">
@@ -263,7 +289,7 @@
                         </div>
                     </div>
 
-               
+
 
                     <div class="picice-list-title-about">
                         Les dimanches durant toute la journée, et autre jours de la semaine au delà de 19h, les tarifs<b> sont majorés de 25%. </b>
