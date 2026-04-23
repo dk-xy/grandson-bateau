@@ -194,7 +194,7 @@ section {
 /* Content */
 .hero-intro {
     text-align: center;
-    height: 25vw;
+    padding: 6rem 0 4rem 0;
 }
 
 .hero-title h1 {
@@ -522,7 +522,7 @@ h2.highlight-title {
 .prices-section-container{
     display:grid;
     grid-template-columns: 3fr 2fr;
-    gap: 16px;
+    gap: 64px;
 }
 
 .prices{
@@ -614,13 +614,18 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 256px;
     padding: 32px 0px;
-
+    width: 100%;
     /* align center */
     align-items: center;
 
     /* justify center */
     justify-items: center;
 
+}
+.usefull-info{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
 }
 
 .usefull-links {
@@ -640,14 +645,91 @@ footer {
     text-decoration: underline;
 }
 
+/* responsive */
+@media screen and (max-width: 768px) {
+.footer-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* gap: 256px; */
+    padding: 32px 0px;
+
+    /* align center */
+    align-items: center;
+
+    /* justify center */
+    justify-items: center;
+}
 
 .usefull-info{
+    width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: flex-start;
     gap: 32px;
+    align-items: flex-start;
+    
 }
+
+.copyright{
+    grid-row: 1 / -1;
+}
+
+.usefull-links{
+    
+}
+
+}
+
+
+
+
 
 .info-footer-title{
     font-weight: 700;
     margin: 0;
+}
+
+/* RESPONSIVE DESIGN */
+
+/* Tablet */
+@media (max-width: 768px) {
+    .benefit-blocks-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contact-section {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer-grid {
+        gap: 64px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+    .benefit-blocks-container {
+        grid-template-columns: 1fr;
+    }
+
+    .teacher-info {
+        grid-template-columns: 1fr;
+    }
+
+    .prices-section-container {
+        grid-template-columns: 1fr;
+    }
+
+    .prices {
+        order: -1;
+    }
+
+    .contact-section {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
 }

@@ -184,3 +184,37 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 
 
 
+function theme_register_local_gsap() {
+    // Only load on front-page.php
+    if ( is_front_page() ) {
+        
+        // 1. Load the Core GSAP file from your 'minified' folder
+        wp_enqueue_script(
+            'gsap-core', 
+            get_template_directory_uri() . '/js/libraries/GSAP/minified/gsap.min.js', 
+            array(), 
+            '3.12.5', 
+            true
+        );
+
+        // 2. Load ScrollTrigger (or other plugins) if you need them
+        // Check your folder to confirm the filename, usually it's ScrollTrigger.min.js
+        wp_enqueue_script(
+            'gsap-scroll-trigger', 
+            get_template_directory_uri() . '/js/libraries/GSAP/minified/ScrollTrigger.min.js', 
+            array('gsap-core'), 
+            '3.12.5', 
+            true
+        );
+
+        // 3. Load your custom animation logic
+        wp_enqueue_script(
+            'boat-school-animations', 
+            get_template_directory_uri() . '/js/gsap-animations.js', 
+            array('gsap-core'), 
+            '1.0', 
+            true
+        );
+    }
+}
+add_action('wp_enqueue_scripts', 'theme_register_local_gsap');

@@ -638,7 +638,7 @@ h6 {
 	clear: both;
 }
 
-
+/* 
 h1 {
 	font-weight: 800;
 	font-size: 3.815rem;
@@ -650,7 +650,7 @@ h2 {
 }
 
 h2.highlight-title {
-	/* color: #4169e1; */
+
 	font-weight: 300;
 	font-size: 1.777rem;
 }
@@ -674,7 +674,19 @@ h6 {
 	font-weight: 300;
 	font-size: 1.25rem;
 }
+ */
 
+ h1 { font-size: 2.441rem; } /* h3 size from your desktop list */
+h2 { font-size: 1.953rem; }
+h2.highlight-title {font-weight: 200;}
+h3 { font-size: 1.563rem; }
+
+/* Desktop Adjustment */
+@media (min-width: 768px) {
+    h1 { font-size: 3.815rem; }
+    h2 { font-size: 3.052rem; }
+    h3 { font-size: 2.441rem; }
+}
 
 p {
 	margin-bottom: 1.5em;
@@ -904,6 +916,14 @@ textarea {
 
 .website-section{
 	margin-bottom: 10rem;
+}
+
+/* responsive */
+@media screen and (max-width: 768px) {
+	.website-section{
+	margin-bottom: 2rem;
+}
+	/* responsive styles */
 }
 
 /*--------------------------------------------------------------
