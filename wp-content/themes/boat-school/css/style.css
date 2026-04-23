@@ -103,12 +103,12 @@ section {
     backdrop-filter: blur(23px);
     -webkit-backdrop-filter: blur(23px);
     border-radius: 48px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.178);
     box-shadow:
         0 8px 32px rgba(0, 0, 0, 0.1),
-        inset 0 1px 0 rgba(255, 255, 255, 0.5),
-        inset 0 -1px 0 rgba(255, 255, 255, 0.1),
-        inset 0 0 8px 4px rgba(255, 255, 255, 0.4);
+        inset 0 1px 0 rgba(255, 255, 255, 0.295),
+        inset 0 -1px 0 rgba(255, 255, 255, 0.021),
+        inset 0 0 8px 4px rgba(255, 255, 255, 0.192);
     position: fixed;
     overflow: hidden;
     left: 50%;
@@ -449,6 +449,11 @@ h2.highlight-title {
 }
 
 /* TEACHER-------------------------------------------- */
+.teacher-image-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 .teacher-section-container {
     margin-top: 32px;
 }
@@ -464,7 +469,7 @@ h2.highlight-title {
 }
 
 .teacher-image-container {
-    width: 100%;
+   
     height: auto;
     border-radius: 12px;
 }
@@ -472,6 +477,7 @@ h2.highlight-title {
 .teacher-image {
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+     width: 80%;
 }
 
 .teacher-descr {
