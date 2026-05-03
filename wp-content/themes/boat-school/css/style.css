@@ -55,6 +55,11 @@ section {
     margin: 0 auto;
 
 }
+.hero-intro-picture img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px !important;
+}
 
 /* HERO SECTION & HEADER OVERLAY */
 .my-hero-section {
