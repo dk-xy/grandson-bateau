@@ -201,7 +201,7 @@
                 Nous avons la chance de pouvoir bénéficier de matériel de formation gratuit mis à disposition par Dominique Brun, un collègue passionné de navigation et formateur expérimenté. Ce matériel comprend des supports de cours, des vidéos de manoeuvre et des conseils pour réussir l’examen théorique.
             </div>
             <div class="theory-special-content-link">
-                <a href="https://dom-auto-moto-bateau-ecole-mv0drx087gfy9mx2.builder-preview.com/bateaux">Liens vers le blog de Dominique</a>
+                <a href="https://auto-moto-bateau-ecole.ch/bateaux">Liens vers le blog de Dominique</a>
             </div>
         </div>
     </section>
@@ -301,9 +301,32 @@
     </section>
 
     <!-- GALLERIES SECTION----------------------------------------------------------------------------------------- -->
-    <!-- <section class="website-section">
+    <section class="website-section">
+        <div class="section-heading">
+            <div class="title-header">
+                En voir plus de nos aventures
+            </div>
+            <h2>
+                Galleries
+            </h2>
+        </div>
 
-    </section> -->
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/pictures/gallery-1.webp" alt="Photo de Raphaël Party" class="gallery-image">
+                <div class="gallery-label">Aventure 1</div>
+            </div>
+            <div class="gallery-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/pictures/gallery-2.webp" alt="Photo de Raphaël Party" class="gallery-image">
+                <div class="gallery-label">Aventure 2</div>
+            </div>
+            <div class="gallery-item">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/pictures/gallery-3.webp" alt="Photo de Raphaël Party" class="gallery-image">
+                <div class="gallery-label">Aventure 3</div>
+            </div>
+
+        </div>
+    </section>
 
     <!-- CONTACT SECTION----------------------------------------------------------------------------------------- -->
     <section class="website-section">
