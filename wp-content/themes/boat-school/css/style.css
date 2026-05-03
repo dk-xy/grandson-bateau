@@ -561,7 +561,28 @@ h2.highlight-title {
 .gallery-container{
     display: grid;
     grid-template-columns: repeat(3, auto);
-    gap: 16px;;
+    gap: 32px;
+}
+
+.gallery-image{
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+}
+
+.gallery-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 8px;
+
+}
+
+.gallery-label{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin: 0;
 }
 
 /* CONTACT ------------------------------------------*/

@@ -159,7 +159,7 @@
 
 
     <!-- THEORIE SECTION----------------------------------------------------------------------------------------- -->
-    <section class="website-section">
+    <section class="website-section theory-section">
         <div class="section-heading">
             <div class="title-header">
                 Préparation à l’examen théorique
