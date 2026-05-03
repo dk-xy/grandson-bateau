@@ -554,6 +554,16 @@ h2.highlight-title {
 .prices{
 
 }
+
+
+
+/* GALLERY------------------------------------------ */
+.gallery-container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 16px;;
+}
+
 /* CONTACT ------------------------------------------*/
 .contact-section {
     width: 100%;

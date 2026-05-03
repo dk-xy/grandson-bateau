@@ -313,15 +313,15 @@
 
         <div class="gallery-container">
             <div class="gallery-item">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/pictures/gallery-1.webp" alt="Photo de Raphaël Party" class="gallery-image">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/pictures/thumbnails/thumbnail-1.webp" alt="Photo de Raphaël Party" class="gallery-image">
                 <div class="gallery-label">Aventure 1</div>
             </div>
             <div class="gallery-item">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/pictures/gallery-2.webp" alt="Photo de Raphaël Party" class="gallery-image">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/pictures/thumbnails/thumbnail-2.webp" alt="Photo de Raphaël Party" class="gallery-image">
                 <div class="gallery-label">Aventure 2</div>
             </div>
             <div class="gallery-item">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/pictures/gallery-3.webp" alt="Photo de Raphaël Party" class="gallery-image">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/pictures/thumbnails/thumbnail-3.webp" alt="Photo de Raphaël Party" class="gallery-image">
                 <div class="gallery-label">Aventure 3</div>
             </div>
 
