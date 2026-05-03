@@ -140,7 +140,18 @@ const animations = [
     {
         trigger: '.prices-section',
         targets: '.prices-section .boat-picture, .prices-section .title-header, .prices-section h3, .prices-section .price-list-subtitle, .prices-section .section-descr, .price-list-item-container, .picice-list-title-about'    
+    },
+    // gallery-section
+    {
+        trigger: '.gallery-section',
+        targets: '.gallery-section .title-header, .gallery-section h2, .gallery-section .gallery-item'
+    },
+    // contact-section
+    {
+        trigger: '.contact-main-section',
+        targets: '.contact-main-section .title-header, .contact-main-section h2, .contact-main-section .contact-item, .wpcf7-form'
     }
+    
 ];
 
 animations.forEach(({ trigger, targets }) => {

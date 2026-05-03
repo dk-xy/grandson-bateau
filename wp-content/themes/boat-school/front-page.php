@@ -301,7 +301,7 @@
     </section>
 
     <!-- GALLERIES SECTION----------------------------------------------------------------------------------------- -->
-    <section class="website-section">
+    <section class="website-section gallery-section">
         <div class="section-heading">
             <div class="title-header">
                 En voir plus de nos aventures
@@ -329,7 +329,7 @@
     </section>
 
     <!-- CONTACT SECTION----------------------------------------------------------------------------------------- -->
-    <section class="website-section">
+    <section class="website-section contact-main-section">
         <div class="section-heading">
             <div class="title-header">
                 Une question ?
