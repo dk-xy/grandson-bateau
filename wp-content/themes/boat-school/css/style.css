@@ -620,6 +620,22 @@ h2.highlight-title {
     padding: 32px 8px;
 }
 
+/* tablet */
+@media (max-width: 768px) {
+    .all-links-container {
+        grid-template-columns: 1fr;
+        width: 100%;
+        gap: 32px;
+    }
+
+    .link-button a {
+        width: 224px;
+        text-align: center;
+    }
+
+
+}
+
 .app-links-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
