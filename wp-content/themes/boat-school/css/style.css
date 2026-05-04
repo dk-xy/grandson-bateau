@@ -20,7 +20,7 @@ section {
     backdrop-filter: blur(23px);
     -webkit-backdrop-filter: blur(23px);
     border-radius: 48px;
-    border: 1px solid rgba(255, 255, 255, 0.178);
+    border: 1px solid rgb(255, 255, 255);
     box-shadow:
         0 8px 32px rgba(0, 0, 0, 0.1),
         inset 0 1px 0 rgba(255, 255, 255, 0.295),
@@ -38,15 +38,34 @@ section {
     justify-content: space-between;
     align-items: center;
     max-width: 1440px;
-   
+
     transition: all 0.3s ease;
     border: 1px solid transparent;
 }
 
+/* tablet */
+@media screen and (max-width: 768px) {
 
-.menu-primary-menu-container{
 
+    #primary-menu {
+        background: rgba(255, 255, 255, 0.952);
+        backdrop-filter: blur(23px);
+        -webkit-backdrop-filter: blur(23px);
+        border-radius: 48px;
+        border: 1px solid rgba(255, 255, 255, 0.178);
+        box-shadow:
+            0 8px 32px rgba(0, 0, 0, 0.1),
+            inset 0 1px 0 rgba(255, 255, 255, 0.295),
+            inset 0 -1px 0 rgba(255, 255, 255, 0.021),
+            inset 0 0 8px 4px rgba(255, 255, 255, 0.192);
+    padding: 32px 64px;
+    margin-top: 1rem;
+        }
+    
 }
+
+.menu-primary-menu-container {}
+
 /* Add scrolled state */
 .site-header.scrolled {
     /* background: var(--orange-8); */
@@ -62,7 +81,7 @@ section {
     border: 1px solid rgba(255, 255, 255, 0.43); */
     /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
     /* gradient borders */
-    
+
 }
 
 
@@ -587,21 +606,21 @@ h2.highlight-title {
 }
 
 
-.exam-link-title{
+.exam-link-title {
     font-size: 1.1rem;
     font-weight: 600;
     margin-bottom: 0.6rem;
 }
 
 .all-links-container {
-display: grid;
-grid-template-columns: 1fr 1fr;
-width: 75%;
-margin: auto;
-padding: 32px 8px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 75%;
+    margin: auto;
+    padding: 32px 8px;
 }
 
-.app-links-container{
+.app-links-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 16px;
@@ -652,11 +671,13 @@ padding: 32px 8px;
     stroke-miterlimit: 10;
     stroke-width: 12px;
 }
+
 .link-button a:hover .play-store-link svg {
     stroke: #ffffff !important;
     stroke-miterlimit: 10;
     stroke-width: 12px
 }
+
 .link-button a:hover .link-button-icon svg {
     fill: #fff;
     stroke: #fff;
