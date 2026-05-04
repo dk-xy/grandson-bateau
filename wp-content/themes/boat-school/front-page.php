@@ -303,7 +303,7 @@
         <div class="prices-section-container">
             <div class="boat-picture">
                 <div class="boat-image-container">
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/pictures/bateau-semi-rigide-3d-tender.webp" alt="Photo de Raphaël Party" class="teacher-image">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/pictures/bateau-semi-rigide-3d-tender.webp" alt="Photo de Raphaël Party" class="boat-image">
                 </div>
             </div>
             <div class="prices">

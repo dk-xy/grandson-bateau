@@ -774,7 +774,11 @@ h2.highlight-title {
     height: 32px;
 }
 
-/* Prices */
+/* Prices--------------------------------------- */
+
+.boat-image{
+    border-radius: 16px ;
+}
 
 .price-list-title {
     margin: 0;
