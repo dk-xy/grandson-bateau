@@ -123,19 +123,15 @@ const animations = [
     },
     {
         trigger: '.theory-section',
-        targets: '.theory-section .title-header, .theory-section h2, .theory-section .section-descr, .theory-section-intro, .theory-section-about, .theory-special-content'
+        targets: '.theory-section .title-header, .theory-section h2, .theory-section .section-descr, .theory-section-intro, .theory-section-about, .usefull-theory-links, .theory-special-content, .theory-special-content h3, .theory-special-content .special-content-sub-title, .theory-special-content .theory-special-content-about, .theory-special-content .theory-special-content-link'
     },
 
     //   teacher-info
     {
         trigger: '.teacher-info',
-        targets: '.teacher-info .teacher-image, .teacher-info .title-header, .teacher-info h2, .teacher-info .teacher-name, .teacher-info .teacher-bio, .teacher-info .teacher-descr'
+        targets: '.teacher-info .teacher-image, .teacher-info .title-header, .teacher-info h2, .teacher-info .teacher-name, .teacher-info .teacher-bio, .teacher-info .teacher-descr, .teacher-highlight-grid .teacher-highlight-item'
     },
 
-    {
-        trigger: '.teacher-info',
-        targets: '.teacher-highlight-grid, .teacher-highlight-grid .teacher-highlight-item'
-    },
     // prices-section
     {
         trigger: '.prices-section',
@@ -161,7 +157,7 @@ animations.forEach(({ trigger, targets }) => {
     gsap.from(elems, {
         y: 50,
         opacity: 0,
-        duration: 0.6,
+        duration: 0.5,
         stagger: 0.2,
         scrollTrigger: {
             trigger,

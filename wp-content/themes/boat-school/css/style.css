@@ -55,6 +55,7 @@ section {
     margin: 0 auto;
 
 }
+
 .hero-intro-picture img {
     width: 100%;
     height: auto;
@@ -390,8 +391,9 @@ h2.highlight-title {
     font-size: 1.563rem;
     font-weight: 800;
     margin: 0;
-   
+
 }
+
 .benefit-block-subtitle {
     font-size: 1.3rem;
     font-weight: 400;
@@ -454,12 +456,91 @@ h2.highlight-title {
     border: solid 1px #005ea4;
 }
 
+
+.exam-link-title{
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.6rem;
+}
+
+.all-links-container {
+display: grid;
+grid-template-columns: 1fr 1fr;
+width: 75%;
+margin: auto;
+padding: 32px 8px;
+}
+
+.app-links-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+
+.link-button a {
+    /* background-color: #005ea4; */
+    border: solid 2px #005ea4;
+    color: #005ea4;
+    text-decoration: none;
+
+    padding: 12px 24px;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    transition: 0.4s;
+    font-weight: 600;
+}
+
+.link-button a:hover {
+    transition: 0.4s;
+    background-color: #005ea4;
+    color: #fff;
+    border: solid 2px #005ea4;
+}
+
+.link-button-icon {
+    width: 24px;
+    height: 24px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 8px;
+}
+
+.link-button-icon svg {
+    width: 100%;
+    height: 100%;
+    fill: #005ea4;
+
+
+    transition: fill 0.4s;
+}
+
+.play-store-link svg {
+    stroke: #005ea4;
+    stroke-miterlimit: 10;
+    stroke-width: 12px;
+}
+.link-button a:hover .play-store-link svg {
+    stroke: #ffffff !important;
+    stroke-miterlimit: 10;
+    stroke-width: 12px
+}
+.link-button a:hover .link-button-icon svg {
+    fill: #fff;
+    stroke: #fff;
+}
+
+
+
 /* TEACHER-------------------------------------------- */
 .teacher-image-container {
     width: 100%;
     display: flex;
     justify-content: center;
 }
+
 .teacher-section-container {
     margin-top: 32px;
 }
@@ -475,7 +556,7 @@ h2.highlight-title {
 }
 
 .teacher-image-container {
-   
+
     height: auto;
     border-radius: 12px;
 }
@@ -483,12 +564,13 @@ h2.highlight-title {
 .teacher-image {
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-     width: 80%;
+    width: 80%;
 }
 
 .teacher-descr {
     margin-bottom: 36px;
 }
+
 .teacher-highlight-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -499,11 +581,12 @@ h2.highlight-title {
 }
 
 
-.teacher-highlight-item{
+.teacher-highlight-item {
     display: flex;
     align-items: center;
     gap: 32px;
 }
+
 .teacher-highlight-icon svg {
     width: 32px;
     height: 32px;
@@ -524,7 +607,7 @@ h2.highlight-title {
 
 }
 
-.payment-info{
+.payment-info {
     font-size: 0.95rem;
 }
 
@@ -550,32 +633,30 @@ h2.highlight-title {
 
 
 /* PRICES------------------------------------------- */
-.prices-section-container{
-    display:grid;
+.prices-section-container {
+    display: grid;
     grid-template-columns: 3fr 2fr;
     gap: 64px;
 }
 
-.prices{
-
-}
+.prices {}
 
 
 
 /* GALLERY------------------------------------------ */
-.gallery-container{
+.gallery-container {
     display: grid;
     grid-template-columns: repeat(3, auto);
     gap: 32px;
 }
 
-.gallery-image{
+.gallery-image {
     width: 100%;
     height: auto;
     border-radius: 16px;
 }
 
-.gallery-item{
+.gallery-item {
     display: flex;
     flex-direction: column;
     justify-content: left;
@@ -584,7 +665,7 @@ h2.highlight-title {
 
 }
 
-.gallery-label{
+.gallery-label {
     font-weight: 600;
     font-size: 1.25rem;
     margin: 0;
@@ -656,7 +737,7 @@ input[type="submit"]:hover {
 /* FOOTER -------------------------------*/
 
 footer {
-  position: relative;
+    position: relative;
     width: 100vw;
     left: 50%;
     right: 50%;
@@ -684,7 +765,8 @@ footer {
     justify-items: center;
 
 }
-.usefull-info{
+
+.usefull-info {
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -702,6 +784,7 @@ footer {
     text-decoration: none;
     transition: color 0.2s;
 }
+
 .usefull-links a:hover {
     color: #76a7d7;
     text-decoration: underline;
@@ -709,36 +792,34 @@ footer {
 
 /* responsive */
 @media screen and (max-width: 768px) {
-.footer-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    /* gap: 256px; */
-    padding: 32px 0px;
+    .footer-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        /* gap: 256px; */
+        padding: 32px 0px;
 
-    /* align center */
-    align-items: center;
+        /* align center */
+        align-items: center;
 
-    /* justify center */
-    justify-items: center;
-}
+        /* justify center */
+        justify-items: center;
+    }
 
-.usefull-info{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    gap: 32px;
-    align-items: flex-start;
-    
-}
+    .usefull-info {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        gap: 32px;
+        align-items: flex-start;
 
-.copyright{
-    grid-row: 1 / -1;
-}
+    }
 
-.usefull-links{
-    
-}
+    .copyright {
+        grid-row: 1 / -1;
+    }
+
+    .usefull-links {}
 
 }
 
@@ -746,7 +827,7 @@ footer {
 
 
 
-.info-footer-title{
+.info-footer-title {
     font-weight: 700;
     margin: 0;
 }

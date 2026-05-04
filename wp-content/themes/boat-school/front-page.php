@@ -176,12 +176,49 @@
                 </li>
                 <li>
                     Utiliser l'application d'apprentissage en ligne du service des automobiles et de la navigation
-                    <div><a href="https://www.cut-demo.ch/">Liens</a></div>
+
                 </li>
                 <li>
                     D'autres manuels ou applications qui peuvent être commandés dans des magasins spécialisés ou sur Internet
                 </li>
             </ul>
+        </div>
+
+        <div class="usefull-theory-links">
+            <h3>
+                Liens utiles
+            </h3>
+            <div class="usefull-theory-links-descr">
+                Nous avons sélectionné pour vous quelques ressources en ligne qui pourront vous être utiles dans votre préparation à l’examen théorique.
+            </div>
+
+            <div class="all-links-container">
+            <div class="exam-links">
+                <div class="exam-link-title">Simulateur d'examen en ligne</div>
+                <div class="link-button"> <a href="https://www.cut-demo.ch/" target="_blank">Accéder au simulateur</a></div>
+            </div>
+
+            <div class="app-links">
+                <div class="exam-link-title">Application mobile</div>
+                <div class="app-links-container">
+                    <div class="link-button app-store-link">
+                        <a href="https://apps.apple.com/ch/app/bateauth%C3%A9orie-a-d-suisse/id552360826?l=fr-FR" target="_blank">
+                            <span class="link-button-icon"><?php include 'assets/icons/applinks/apple.svg'; ?></span>
+                            Apple App Store
+                        </a>
+                    </div>
+                    <div class="link-button play-store-link">
+                        <a href="https://play.google.com/store/apps/details?id=ch.bootstheorie.app&hl=fr&pli=1" target="_blank">
+                            <span class="link-button-icon"><?php include 'assets/icons/applinks/google-play-store.svg'; ?></span>
+                            Google Play Store
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+            </div>
+
+
 
         </div>
         <div class="theory-section-about">
