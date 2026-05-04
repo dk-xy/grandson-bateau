@@ -199,3 +199,12 @@ function theme_register_local_gsap()
 	wp_enqueue_script('custom-animations', get_template_directory_uri() . '/js/animations.js', array('gsap', 'gsap-scrolltrigger'), '1.0.0', true);
 }
 add_action('wp_enqueue_scripts', 'theme_register_local_gsap');
+
+function theme_register_local_navigation()
+{
+	// Only load on front-page.php
+
+	wp_enqueue_script('boat-school-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '1.0.0', true);
+}
+add_action('wp_enqueue_scripts', 'theme_register_local_navigation');
+

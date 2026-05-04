@@ -5,8 +5,193 @@ section {
     padding: 64px 16px;
 }
 
+/* Define CSS variables */
+:root {
+    --text-color: #222;
+    --orange-primary: #005ea4;
+    --orange-6: #76a7d7;
+    --orange-8: #f0f8ff;
+}
 
 
+/* HEADER */
+.site-header {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(23px);
+    -webkit-backdrop-filter: blur(23px);
+    border-radius: 48px;
+    border: 1px solid rgba(255, 255, 255, 0.178);
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.1),
+        inset 0 1px 0 rgba(255, 255, 255, 0.295),
+        inset 0 -1px 0 rgba(255, 255, 255, 0.021),
+        inset 0 0 8px 4px rgba(255, 255, 255, 0.192);
+    padding: 1rem 2rem;
+    position: fixed;
+    /* Change to fixed */
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 16px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+   
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+}
+
+
+.menu-primary-menu-container{
+
+}
+/* Add scrolled state */
+.site-header.scrolled {
+    /* background: var(--orange-8); */
+
+    padding: 0.5rem 2rem;
+    /* blur */
+    /* From https://css.glass */
+    /* background: rgba(255, 255, 255, 0.582); */
+    /* border-radius: 16px; */
+    /* box-shadow: 0 2px 32px rgba(0, 0, 0, 0.007); */
+    /* backdrop-filter: blur(15.2px); */
+    /* -webkit-backdrop-filter: blur(15.2px);
+    border: 1px solid rgba(255, 255, 255, 0.43); */
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+    /* gradient borders */
+    
+}
+
+
+
+.site-branding {
+    /* display: flex;
+    align-items: center; */
+    min-width: 30%;
+}
+
+
+
+.custom-logo {
+    max-height: 60px;
+    width: auto;
+}
+
+.main-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.main-navigation ul {
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.main-navigation li {
+    list-style: none;
+}
+
+.main-navigation a {
+    /* color: var(--text-color); */
+    color: #222;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 0;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.main-navigation a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    /* background: var(--orange-primary); */
+    transition: width 0.3s ease;
+}
+
+.main-navigation a:hover {
+    color: var(--orange-primary);
+}
+
+.main-navigation a:hover::after {
+    width: 100%;
+}
+
+/* Mobile menu button */
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.menu-toggle span {
+    display: block;
+    width: 25px;
+    height: 2px;
+    background: var(--text-color);
+    margin: 5px 0;
+    transition: transform 0.3s ease;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .site-header {
+        padding: 1rem;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .main-navigation ul {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: white;
+        flex-direction: column;
+        padding: 1rem;
+        /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+    }
+
+    .main-navigation.toggled ul {
+        display: flex;
+    }
+
+    /* Hamburger menu animation */
+    .menu-toggle.active span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .menu-toggle.active span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-toggle.active span:nth-child(3) {
+        transform: rotate(-45deg) translate(7px, -6px);
+    }
+}
+
+/* Current menu item highlight */
+.current-menu-item>a {
+    color: var(--orange-primary);
+}
+
+.current-menu-item>a::after {
+    width: 100%;
+}
 
 /* HERO SECTION------------------------------------------------ */
 /* Image */
@@ -93,17 +278,17 @@ section {
 }
 
 /* Overlay header at top right */
-#masthead.site-header {
+/* #masthead.site-header {
     display: flex;
     flex-direction: row;
     align-items: center;
     background: transparent;
     justify-content: space-between;
     padding: 0.4rem 1rem;
-    /* gap: 32px; */
+  
 
     width: 40%;
-    /* margin: auto; */
+
 
 
     background: rgba(255, 255, 255, 0.2);
@@ -123,69 +308,13 @@ section {
     transform: translateX(-50%);
     z-index: 1000;
     overflow: hidden;
-}
+} */
 
-#masthead.site-header::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 1px;
-    background: linear-gradient(90deg,
-            transparent,
-            rgba(255, 255, 255, 0.8),
-            transparent);
-}
-
-
-#masthead.site-header::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 1px;
-    height: 100%;
-    background: linear-gradient(180deg,
-            rgba(255, 255, 255, 0.8),
-            transparent,
-            rgba(255, 255, 255, 0.3));
-}
-
-
-#masthead .site-branding {
-    max-width: 250px;
-    /* border: solid 1px #005ea4; */
-    padding: 4px 8px;
-
-}
-
-#masthead .main-navigation {
-    display: flex;
-    /* justify-content: flex-end; */
-    align-items: center;
-    background: transparent;
-}
-
-#masthead .main-navigation ul {
-
-    border-radius: 0.5rem;
-    /* box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); */
-    padding: 0.5rem 1.5rem;
-}
-
-#masthead .main-navigation a {
-    color: #222;
-    font-weight: 500;
-    font-size: 1rem;
-    padding: 0.5rem 1rem;
-    font-family: 'Raleway', sans-serif;
-}
 
 @media (max-width: 900px) {
-    #masthead.site-header {
+    /* #masthead.site-header {
         padding: 1rem 1rem 0 0;
-    }
+    } */
 
     .hero-image-container .image-container img {
         height: 40vh;
