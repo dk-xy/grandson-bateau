@@ -425,8 +425,9 @@ h2.highlight-title {
     padding: 32px 32px;
 }
 
-.theory-special-content h3 {
+.theory-special-content h4 {
     margin: 0;
+    font-size: 1.625rem;
 }
 
 .theory-section-intro ul {

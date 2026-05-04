@@ -183,6 +183,9 @@
                 </li>
             </ul>
         </div>
+         <div class="theory-section-about">
+            Vous avez également la possibilité de <b>commencer la pratique en même temps que la théorie</b> ce qui vous permettra sans aucun doute d’approcher cette dernière de manière plus agréable et avec plus de facilité. Une fois que vous serez prêt, vous pourrez vous inscrire auprès du Service des Automobiles et de la Navigation de votre canton de domicile qui vous informera au sujet des dates des prochains examens.
+        </div>
 
         <div class="usefull-theory-links">
             <h3>
@@ -221,14 +224,12 @@
 
 
         </div>
-        <div class="theory-section-about">
-            Vous avez également la possibilité de <b>commencer la pratique en même temps que la théorie</b> ce qui vous permettra sans aucun doute d’approcher cette dernière de manière plus agréable et avec plus de facilité. Une fois que vous serez prêt, vous pourrez vous inscrire auprès du Service des Automobiles et de la Navigation de votre canton de domicile qui vous informera au sujet des dates des prochains examens.
-        </div>
+       
 
         <div class="theory-special-content">
             <div class="special-content-title-container">
                 <div class="special-content-title">
-                    <h3>Matériel de formation gratuit</h3>
+                    <h4>Matériel de formation gratuit</h4>
                 </div>
                 <div class="special-content-sub-title">
                     <div class="title-header">Mis à disposition par Dominique Brun</div>
