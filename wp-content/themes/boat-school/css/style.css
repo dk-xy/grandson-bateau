@@ -247,6 +247,13 @@ section {
     /* CENTER */
     display: flex;
     justify-content: center;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px !important;
 }
 
 .hero-intro-picture {
@@ -718,6 +725,14 @@ h2.highlight-title {
     gap: 64px;
 }
 
+/* tablet */
+@media (max-width: 768px) {
+    .teacher-info {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+}
+
 .teacher-info .section-heading {
     width: 100%;
 }
@@ -806,7 +821,22 @@ h2.highlight-title {
     gap: 64px;
 }
 
-.prices {}
+/* tablet */
+@media (max-width: 768px) {
+    .prices-section-container {
+        grid-template-columns: 1fr;
+        gap: 32px;
+        /* inverte */
+           
+    }
+     .prices {
+                order: 2;
+            }
+    
+        .boat-picture {
+                order: 1;
+            }
+}
 
 
 
@@ -816,6 +846,21 @@ h2.highlight-title {
     grid-template-columns: repeat(3, auto);
     gap: 32px;
 }
+
+/* tablet */
+@media (max-width: 768px) {
+    .gallery-container {
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+/* mobile  */
+@media (max-width: 480px) {
+    .gallery-container {
+        grid-template-columns: 1fr;
+    }
+}
+
 
 .gallery-image {
     width: 100%;
