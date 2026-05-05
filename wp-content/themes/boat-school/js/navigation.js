@@ -64,6 +64,13 @@
 		link.addEventListener( 'blur', toggleFocus, true );
 	}
 
+	for ( const link of links ) {
+    link.addEventListener( 'click', function() {
+        siteNavigation.classList.remove( 'toggled' );
+        button.setAttribute( 'aria-expanded', 'false' );
+    });
+}
+
 	// Toggle focus each time a menu link with children receive a touch event.
 	for ( const link of linksWithChildren ) {
 		link.addEventListener( 'touchstart', toggleFocus, false );
@@ -95,5 +102,7 @@
 			}
 			menuItem.classList.toggle( 'focus' );
 		}
+
+		
 	}
 }() );

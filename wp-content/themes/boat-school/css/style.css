@@ -48,9 +48,9 @@ section {
 
 
     #primary-menu {
-        background: rgba(255, 255, 255, 0.952);
-        backdrop-filter: blur(23px);
-        -webkit-backdrop-filter: blur(23px);
+        /* background: rgba(255, 255, 255, 0.952);
+        backdrop-filter: blur(23px); */
+        /* -webkit-backdrop-filter: blur(23px); */
         border-radius: 48px;
         border: 1px solid rgba(255, 255, 255, 0.178);
         box-shadow:

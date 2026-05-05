@@ -37,7 +37,7 @@
     </section>
     <!-- SERVICES SECTION----------------------------------------------------------------------------------------- -->
 
-    <section class="website-section">
+    <section class="website-section" id="services">
         <div class="services-section-title-block title-block">
             <div class="section-heading">
                 <div class="title-header">
@@ -99,7 +99,7 @@
 
 
     <!-- BENEFIT SECTION----------------------------------------------------------------------------------------- -->
-    <section class="website-section">
+    <section class="website-section" id="objectifs">
         <div class="benefit-intro-section title-block">
 
             <div class="section-heading">
@@ -159,7 +159,7 @@
 
 
     <!-- THEORIE SECTION----------------------------------------------------------------------------------------- -->
-    <section class="website-section theory-section">
+    <section class="website-section theory-section" id="theorie">
         <div class="section-heading">
             <div class="title-header">
                 Préparation à l’examen théorique
@@ -245,7 +245,7 @@
     </section>
 
     <!-- TEACHER SECTION----------------------------------------------------------------------------------------- -->
-    <section class="website-section">
+    <section class="website-section" id="instructeur">
         <div class="teacher-info">
             <div class="section-heading">
                 <div class="title-header">
@@ -299,7 +299,7 @@
     </section>
 
     <!-- TARIFS SECTION----------------------------------------------------------------------------------------- -->
-    <section class="prices-section website-section">
+    <section class="prices-section website-section" id="tarifs">
         <div class="prices-section-container">
             <div class="boat-picture">
                 <div class="boat-image-container">
@@ -367,7 +367,7 @@
     </section>
 
     <!-- CONTACT SECTION----------------------------------------------------------------------------------------- -->
-    <section class="website-section contact-main-section">
+    <section class="website-section contact-main-section" id="contact">
         <div class="section-heading">
             <div class="title-header">
                 Une question ?
