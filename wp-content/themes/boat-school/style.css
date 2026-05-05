@@ -1037,6 +1037,15 @@ textarea {
 	margin-right: 32px;
 }
 
+/* mobile */
+@media (max-width: 480px) {
+    .post,
+    .page {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
+
 .updated:not(.published) {
 	display: none;
 }

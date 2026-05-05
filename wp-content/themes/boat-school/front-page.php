@@ -183,7 +183,7 @@
                 </li>
             </ul>
         </div>
-         <div class="theory-section-about">
+        <div class="theory-section-about">
             Vous avez également la possibilité de <b>commencer la pratique en même temps que la théorie</b> ce qui vous permettra sans aucun doute d’approcher cette dernière de manière plus agréable et avec plus de facilité. Une fois que vous serez prêt, vous pourrez vous inscrire auprès du Service des Automobiles et de la Navigation de votre canton de domicile qui vous informera au sujet des dates des prochains examens.
         </div>
 
@@ -196,35 +196,38 @@
             </div>
 
             <div class="all-links-container">
-            <div class="exam-links">
-                <div class="exam-link-title">Simulateur d'examen en ligne</div>
-                <div class="link-button"> <a href="https://www.cut-demo.ch/" target="_blank">Accéder au simulateur</a></div>
-            </div>
+                <div class="exam-links">
+                    <div class="exam-link-title">Simulateur d'examen en ligne</div>
+                    <div class="link-button-container">
+                        <div class="link-button"> <a href="https://www.cut-demo.ch/" target="_blank">Accéder au simulateur</a></div>
+                    </div>
 
-            <div class="app-links">
-                <div class="exam-link-title">Application mobile</div>
-                <div class="app-links-container">
-                    <div class="link-button app-store-link">
-                        <a href="https://apps.apple.com/ch/app/bateauth%C3%A9orie-a-d-suisse/id552360826?l=fr-FR" target="_blank">
-                            <span class="link-button-icon"><?php include 'assets/icons/applinks/apple.svg'; ?></span>
-                            Apple App Store
-                        </a>
-                    </div>
-                    <div class="link-button play-store-link">
-                        <a href="https://play.google.com/store/apps/details?id=ch.bootstheorie.app&hl=fr&pli=1" target="_blank">
-                            <span class="link-button-icon"><?php include 'assets/icons/applinks/google-play-store.svg'; ?></span>
-                            Google Play Store
-                        </a>
-                    </div>
                 </div>
 
-            </div>
+                <div class="app-links">
+                    <div class="exam-link-title">Application mobile</div>
+                    <div class="app-links-container">
+                        <div class="link-button app-store-link">
+                            <a href="https://apps.apple.com/ch/app/bateauth%C3%A9orie-a-d-suisse/id552360826?l=fr-FR" target="_blank">
+                                <span class="link-button-icon"><?php include 'assets/icons/applinks/apple.svg'; ?></span>
+                                Apple App Store
+                            </a>
+                        </div>
+                        <div class="link-button play-store-link">
+                            <a href="https://play.google.com/store/apps/details?id=ch.bootstheorie.app&hl=fr&pli=1" target="_blank">
+                                <span class="link-button-icon"><?php include 'assets/icons/applinks/google-play-store.svg'; ?></span>
+                                Google Play Store
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
             </div>
 
 
 
         </div>
-       
+
 
         <div class="theory-special-content">
             <div class="special-content-title-container">
