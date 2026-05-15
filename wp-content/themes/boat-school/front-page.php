@@ -11,12 +11,17 @@
         if (! $hero_url) {
             $hero_url = get_template_directory_uri() . '/assets/images/lac-de-neuchatel.webp';
         }
+        $hero_logo_url = get_template_directory_uri() . '/assets/bateau-ecole-grandson-logo.png';
         ?>
 
         <!-- Centered Hero Text -->
         <div class="hero-intro centered-hero-text">
+            <div class="logo-hero-intro-container">
+                <!-- include wp-content\themes\boat-school\assets\bateau-ecole-grandson-logo-text.png -->
+                <img src="<?php echo esc_url($hero_logo_url); ?>" alt="Bâteau École Grandson" class="logo-hero-intro" style="max-width: 100%; height: auto; margin-bottom: 136px;">
+            </div>
             <div class="hero-title">
-                <h1>Bâteau École Grandson</h1>
+                <!-- <h1>Bâteau École Grandson</h1> -->
                 <h2 class="highlight-title">Cours de bâteau, sur le lac de Neuchâtel</h2>
             </div>
             <div class="hero-descr">

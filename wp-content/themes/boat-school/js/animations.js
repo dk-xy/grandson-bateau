@@ -103,7 +103,7 @@ gsap.registerPlugin(ScrollTrigger);
 const animations = [
     {
         trigger: '.hero-intro',
-        targets: '.hero-intro h1, .hero-intro .highlight-title, .hero-intro .hero-descr,.hero-intro-picture'
+        targets: '.logo-hero-intro-container, .hero-intro h1, .hero-intro .highlight-title, .hero-intro .hero-descr,.hero-intro-picture'
     },
     {
         trigger: '.services-section-title-block',
