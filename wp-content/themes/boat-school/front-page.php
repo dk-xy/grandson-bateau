@@ -18,14 +18,14 @@
         <div class="hero-intro centered-hero-text">
             <div class="logo-hero-intro-container">
                 <!-- include wp-content\themes\boat-school\assets\bateau-ecole-grandson-logo-text.png -->
-                <img src="<?php echo esc_url($hero_logo_url); ?>" alt="Bâteau École Grandson" class="logo-hero-intro" style="max-width: 100%; height: auto; margin-bottom: 136px;">
+                <img src="<?php echo esc_url($hero_logo_url); ?>" alt="BBateau École Grandson" class="logo-hero-intro" style="max-width: 100%; height: auto; margin-bottom: 96px;">
             </div>
             <div class="hero-title">
-                <!-- <h1>Bâteau École Grandson</h1> -->
-                <h2 class="highlight-title">Cours de bâteau, sur le lac de Neuchâtel</h2>
+                <!-- <h1>Bateau École Grandson</h1> -->
+                <h2 class="highlight-title">Cours de bateau, sur le lac de Neuchâtel</h2>
             </div>
             <div class="hero-descr">
-                Vous souhaitez obtenir votre permis de conduire bâteau moteur (catégorie A) sur le lac de Neuchâtel ?<br>
+                Vous souhaitez obtenir votre permis de conduire bateau moteur (catégorie A) sur le lac de Neuchâtel ?<br>
                 Nous vous proposons une formation pratique complète pour naviguer en toute sérénité.
             </div>
         </div>
@@ -49,7 +49,7 @@
                     Nos services
                 </div>
                 <h2>
-                    Formation au permis de conduire bâteau moteur (Cat. A)
+                    Formation au permis de conduire bateau moteur (Cat. A)
                 </h2>
             </div>
 
@@ -73,7 +73,7 @@
                 <div class="service-block-text">
                     <h3 class="service-block-title">Le bateau</h3>
                     <div class="service-block-descr">
-                        Les heures de pratique se déroulent à bord de notre bâteau semi rigide 3D Tender de 5m50, propulsé par un moteur de 70 cv 4 temps, très facile à manœuvrer et idéal pour l'apprentissage.
+                        Les heures de pratique se déroulent à bord de notre bateau semi-rigide 3D Tender de 5m50, propulsé par un moteur de 70 cv 4 temps, très facile à manœuvrer et idéal pour l'apprentissage.
                     </div>
                 </div>
             </div>
@@ -93,7 +93,7 @@
                 <div class="service-block-text">
                     <h3 class="service-block-title">Le lieu</h3>
                     <div class="service-block-descr">
-                        En bénéficiant d'infrastructures portuaires de qualité, vous apprenez à naviguer dans l’un des plus beaux environnements de la région, entre eaux calmes et agitée, pour une expérience d’apprentissage riche.
+                        En bénéficiant d'infrastructures portuaires de qualité, vous apprenez à naviguer dans l’un des plus beaux environnements de la région, entre eaux calmes et agitées, pour une expérience d’apprentissage riche.
                     </div>
                 </div>
             </div>
@@ -170,14 +170,14 @@
                 Préparation à l’examen théorique
             </div>
             <h2>
-                Divers options de préparation
+                Diverses options de préparation
             </h2>
         </div>
         <div class="theory-section-intro">
             Vous avez à disposition plusieurs moyens pour vous préparer à l’examen théorique:
             <ul>
                 <li>
-                    Acheter les livres fournis par le Service de Automobiles et de la Navigation: "Naviguez dans les eaux suisses" ainsi que le catalogue d'éxamen.
+                    Acheter les livres fournis par le Service des Automobiles et de la Navigation: "Naviguez dans les eaux suisses" ainsi que le catalogue d'examen.
                 </li>
                 <li>
                     Utiliser l'application d'apprentissage en ligne du service des automobiles et de la navigation
@@ -244,7 +244,7 @@
                 </div>
             </div>
             <div class="theory-special-content-about">
-                Nous avons la chance de pouvoir bénéficier de matériel de formation gratuit mis à disposition par Dominique Brun, un collègue passionné de navigation et formateur expérimenté. Ce matériel comprend des supports de cours, des vidéos de manoeuvre et des conseils pour réussir l’examen théorique.
+                Nous avons la chance de pouvoir bénéficier de matériel de formation gratuit mis à disposition par Dominique Brun, un collègue passionné de navigation et formateur expérimenté. Ce matériel comprend des supports de cours, des vidéos de manœuvre et des conseils pour réussir l'examen théorique.
             </div>
             <div class="theory-special-content-link">
                 <a href="https://auto-moto-bateau-ecole.ch/bateaux">Liens vers le blog de Dominique</a>
@@ -330,7 +330,7 @@
                             <div class="price-list-item-value">CHF 100.-</div>
                         </div>
                         <div class="price-list-item">
-                            <div class="price-list-item-title">Avec votre bâteau</div>
+                            <div class="price-list-item-title">Avec votre bateau</div>
                             <div class="price-list-item-value">CHF 80.-</div>
                         </div>
                     </div>
@@ -338,7 +338,7 @@
 
 
                     <div class="picice-list-title-about">
-                        Les dimanches durant toute la journée, et autre jours de la semaine au delà de 19h, les tarifs<b> sont majorés de 25%. </b>
+                        Les dimanches durant toute la journée, et autres jours de la semaine au-delà de 19h, les tarifs<b> sont majorés de 25%. </b>
                     </div>
                 </div>
             </div>
